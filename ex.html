@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстраційна картка користувача</title>
+    <style tupe="text/css">
+        body {
+            background: url(https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&w=600);
+            background-size: cover;
+        }
+        img {
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <fieldset>
+        <legend>
+            <h1>ПРО СЕБЕ</h1>
+        </legend>
+        <label>
+            Прізвище
+            <padding-right>
+                <input type="text" placeholder="">
+            </padding-right>
+        </label>
+        <br>
+        <label>
+            Ім'я
+            <input type="text" placeholder="">
+        </label>
+        <br>
+        <label>
+            Адреса проживання
+            <input type="text" placeholder="">
+        </label>
+        <br>
+        <label>
+            Дата народження
+            <input type="date" name="" id="" />
+        </label>
+        <br>
+        <label>
+            Електронна адреса
+            <input type="email" name="" id="" />
+        </label>
+        <br>
+    </fieldset>
+   </div> 
+   <div>
+    <fieldset>
+        <legend>
+            <h1>МІСЦЕ РОБОТИ</h1>
+        </legend>
+        <label>
+            Адреса організації
+            <input type="text" placeholder="">
+        </label>
+        <br>
+        <label>
+            Стаж роботи
+            <input type="text" placeholder="">
+        </label>
+        <br>
+        <label>
+            Дата початку роботи
+            <input type="date" name="" id="" />
+        </label>
+        <br>
+    </fieldset>
+   </div>
+   <div>
+    <fieldset>
+        <legend>
+            <h1>СТАТИСТИЧНИЙ ОПИТУВАЛЬНИК</h1>
+        </legend>
+        <label>
+            Як оцінюєте роботу президента
+            <input type="range" min="1" max="100" value="1">
+        </label>
+        <br>
+        <label>
+            Коментар стосовно останніх виборів
+            <textarea style="width: 170px; height: 24px;"></textarea>
+        </label>
+        <br>
+        <br>
+        <label>
+            Найкращий місяць для відпустки
+            <select name="month">
+            <option value="01">Січень</option>
+            <option value="02">Лютий</option>
+            <option value="03">Березень</option>
+            <option value="04">Квітень</option>
+            <option value="05">Травень</option>
+            <option value="06">Червень</option>
+            <option value="07">Липень</option>
+            <option value="08">Серпень</option>
+            <option value="09">Вересень</option>
+            <option value="10">Жовтень</option>
+            <option value="11">Листопад</option>
+            <option value="12">Грудень</option>
+          </select>
+        </label>
+        <br>
+    </fieldset>
+   </div>
+   <div>
+    <fieldset>
+        <legend>
+            <h1>ПРІОРИТЕТИ</h1>
+        </legend>
+         <h2>У виборі кави</h2>
+            <label>
+            Обсмаження
+            <input type="radio" placeholder="">
+        </label>
+        <br>
+        <label>
+            Міцність
+            <input type="radio" placeholder="">
+        </label>
+        <br>
+        <label>
+            Приготування
+            <input type="radio" placeholder="">
+        </label>
+        <br>
+        <br>
+         <h2> У виборі місця відпочинку</h2>
+           <label>
+            Море
+            <input type="checkbox" name="rest" id="">
+        </label>
+        <br>
+        <label>
+            Гори
+            <input type="checkbox" name="rest" id="">
+        </label>
+        <br>
+        <label>
+            Екскурсії
+            <input type="checkbox" name="rest" id="">
+        </label>
+        <br>
+         <label>
+            Музеї
+            <input type="checkbox" name="rest" id="">
+        </label>
+        <br>
+        <br>
+        <h2>У виборі автомобіля</h2>
+        <label>
+          <select name="auto" id="">
+            <option value="електромобіль">електромобіль</option>
+            <option value="спортивний">спортивний</option>
+            <option value="легковий">легковий</option>
+          </select>
+        </label>
+        <br>
+        <br>
+        <h2>Фрукти</h2>
+        <label>
+            <select name="" id="">
+                <optgroup label="екзотичні">
+                    <option value="Пітахайа">Пітахайа</option>
+                    <option value="Лічі">Лічі</option>
+                    <option value="Карамболь">Карамболь</option>
+                </optgroup>
+                 <optgroup label="ягоди">
+                    <option value="Полуниця">Полуниця</option>
+                    <option value="Ожина">Ожина</option>
+                    <option value="Суниця">Суниця</option>
+                </optgroup>
+            </select>      
+        </label>
+    </fieldset>
+   </div>
+   <div></div>
+   <div>
+        <button type="submit">send</button>
+        <button type="reset">reset</button>
+    </div>
+</body>                                 
+</html>
